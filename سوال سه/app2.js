@@ -18,20 +18,7 @@ function getFrom(e) {
     // const check = Dataobj(listData)
     console.log(arrList)
     form.reset()
-    show.innerHTML = ''
-    arrList.forEach(element => {
-        const div = document.createElement('div')
-        div.classList = "list"
-        div.innerHTML = `
-     <ul class="ulList">
-     <li>
-       <p>${element.fName}</p>
-       <p>${element.age}</p>
-       </li>
-     </ul>
-     `
-        show.appendChild(div)
-    });
+
 
     Sortage(arrList)
 }
@@ -46,12 +33,14 @@ function Sortage(data) {
     console.log(sort)
     sort.forEach(element => {
         const div = document.createElement('div')
+        div.innerHTML = ''
         div.innerHTML = `
         <ul class="ulList">
         <li>
         <p>${element.fName}</p>
         <p>${element.age}</p>
         </li>
+        
         </ul>
         `
         ListSort.appendChild(div)
