@@ -27,3 +27,27 @@ obj.decrease();
 obj.decrease();
 obj.reset();
 obj.load()
+
+
+let obj2 = {
+    count: 0,
+    increase() {
+        this.count++
+        return this;
+    },
+    decrease() {
+        this.count--
+        return this;
+    },
+    load() {
+        console.log(this.count)
+        return this
+    },
+    reset() {
+        this.count = 0
+        return this
+    }
+
+}
+
+obj2.increase().increase().load().reset().increase().load();
