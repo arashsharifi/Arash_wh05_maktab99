@@ -22,11 +22,16 @@
     gap: 20px;
 }
 
+
 .info-img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    border: 7px solid white;
+    margin-bottom: 5px;
 }
+
+
 
 .business-card {
     width: 600px;
@@ -39,6 +44,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
 }
+
 
 .text-body {
     /* background-color: rgb(13, 43, 43); */
