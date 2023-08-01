@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    color: #f5f6fa;
+    width: 900px;
+    height: 90vh;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e4e7f5c6;
+}
+
+.business-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.business-card {
+    width: 600px;
+    padding: 35px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #253A50, #6D98C3);
+}
+
+.img-title h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.text-body {
+    /* background-color: rgb(13, 43, 43); */
+    line-height: 1.5;
+    width: 89%;
+}
+
+.text-body p {
+    font-size: 18px;
+    font-family: Cursive;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.back-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: #f5f6fa;
+    color: #253A50;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.back-icon i {
+    color: #253A50;
+    font-size: 23px;
+}
+
+.back-icon:hover {
+    box-shadow: 0px 0px 14px 13px #253A50;
+    transition: 1s;
+}
