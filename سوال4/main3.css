@@ -59,9 +59,9 @@
 }
 
 #notification {
+    display: none;
     position: absolute;
-
-
+    text-align: center;
     width: 200px;
     height: 90px;
     background-color: red;
